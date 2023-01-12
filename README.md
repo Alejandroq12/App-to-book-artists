@@ -39,10 +39,10 @@ pip install Flask-Migrate
 node -v
 npm -v
 ```
-Install [Bootstrap 3]
+Install [Bootstrap 5]
 ```
 npm init -y
-npm install bootstrap@3
+npm install bootstrap@5
 ```
 
 
