@@ -1,0 +1,25 @@
+{
+  "name": "app-to-book-artists",
+  "version": "1.0.0",
+  "description": "Fyyur\r -----",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejandroq12/App-to-book-artists.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejandroq12/App-to-book-artists/issues"
+  },
+  "homepage": "https://github.com/Alejandroq12/App-to-book-artists#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "install": "^0.13.0",
+    "npm": "^9.2.0"
+  }
+}
