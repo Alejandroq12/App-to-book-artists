@@ -6,54 +6,48 @@
       <h3 class="form-heading">Edit artist <em>{{ artist.name }}</em></h3>
       <div class="form-group">
         <label for="name">Name</label>
-        {{ form.name(class_ = 'form-control', autofocus = true) }}
+        {{ form.name(class_ = 'form-control', value = artist.name, autofocus = true) }}
+        {{ form.csrf_token() }}
       </div>
       <div class="form-group">
-          <label>City & State</label>
-          <div class="form-inline">
-            <div class="form-group">
-              {{ form.city(class_ = 'form-control', placeholder='City', autofocus = true) }}
-            </div>
-            <div class="form-group">
-              {{ form.state(class_ = 'form-control', placeholder='State', autofocus = true) }}
-            </div>
+        <label>City & State</label>
+        <div class="form-inline">
+          <div class="form-group">
+            {{ form.city(class_ = 'form-control', value = artist.city, autofocus = true) }}
           </div>
-      </div>
-      <div class="form-group">
-          <label for="phone">Phone</label>
-          {{ form.phone(class_ = 'form-control', placeholder='xxx-xxx-xxxx', autofocus = true) }}
+          <div class="form-group">
+            {{ form.state(class_ = 'form-control', default = artist.state, autofocus = true) }}
+          </div>
         </div>
-      <div class="form-group">
-        <label for="genres">Genres</label>
-        <small>Ctrl+Click to select multiple</small>
-        {{ form.genres(class_ = 'form-control', placeholder='Genres, separated by commas', autofocus = true) }}
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone</label>
+        {{ form.phone(class_ = 'form-control', value = artist.phone, autofocus = true) }}
       </div>
-      <div class="form-group">
-          <label for="facebook_link">Facebook Link</label>
-          {{ form.facebook_link(class_ = 'form-control', placeholder='http://', autofocus = true) }}
-        </div>
-      
-      <div class="form-group">
-          <label for="image_link">Image Link</label>
-          {{ form.image_link(class_ = 'form-control', placeholder='http://', autofocus = true) }}
-      </div>
+    <div class="form-group">
+      <label for="genres">Genres</label>
+      <small>Ctrl+Click to select multiple</small>
+      {{ form.genres(class_ = 'form-control', default = artist.genres, autofocus = true) }}
+    </div>
+    <div class="form-image_link">
+      <label for="image_link">Image Link</label>
+      {{ form.image_link(class_ = 'form-control', value = artist.image_link, autofocus = true) }}
+    </div>
+    <div class="form-facebook_link">
+      <label for="genres">Facebook Link</label>
+      {{ form.facebook_link(class_ = 'form-control', value = artist.facebook_link, autofocus = true) }}
+    </div>
+    <div class="form-group">
+      <label for="seeking_description">Seeking Description</label>
+      {{ form.seeking_description(class_ = 'form-control', value = artist.seeking_description, autofocus = true) }}
+    </div>
+    <div class="form-group">
+      <label for="seeking_venue">Seeking Venue</label>
+      {{ form.seeking_venue(class_ = 'form-control ', autofocus = true) }}
+    </div>
+    <input type="submit" value="Create Artist" class="btn btn-primary btn-lg btn-block">
+  </form>
+</div>
 
-      <div class="form-group">
-            <label for="website_link">Website Link</label>
-            {{ form.website_link(class_ = 'form-control', placeholder='http://', autofocus = true) }}
-      </div>
 
-      <div class="form-group">
-          <label for="seeking_venue">Looking for Venues</label>
-          {{ form.seeking_venue(placeholder='Venue', autofocus = true) }}
-      </div>
-
-      <div class="form-group">
-          <label for="seeking_description">Seeking Description</label>
-          {{ form.seeking_description(class_ = 'form-control', autofocus = true) }}
-      </div>
-      
-      <input type="submit" value="Edit Artist" class="btn btn-primary btn-lg btn-block">
-    </form>
-  </div>
 {% endblock %}
