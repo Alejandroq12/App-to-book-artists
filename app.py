@@ -142,7 +142,7 @@ def show_venue(venue_id):
     shows = db.session.query(Show, Artist).filter_by(venue_id=venue_id).join(Artist).all()
 
     for (show, artist) in shows:
-        if(show.start_time<datetime.datetime.now()):
+        if(show.start_time< datetime.now()):
             add_to="past_shows"
         else:
             add_to="upcoming_shows"
