@@ -8,6 +8,7 @@ from flask_wtf import Form
 from forms import *
 from flask_migrate import Migrate
 import babel
+import datetime
 from flask_moment import Moment
 import collections
 from config import *
@@ -278,7 +279,7 @@ def show_artist(artist_id):
     shows = db.session.query(Show, Venue).filter_by(artist_id=artist_id).join(Venue).all()
 
     for (show, venue) in shows:
-        if(show.start_time < datetime.datetime.now()):
+        if(show.start_time < datetime.now()):
             add_to = "past_shows"
         else:
             add_to = "upcoming_shows"
