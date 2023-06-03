@@ -179,6 +179,15 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+Python
+```sh
+https://www.python.org/downloads/
+```
+Node.js
+```sh
+https://www.python.org/downloads/
+```
+ PostgreSQL
 <!--
 Example command:
 
@@ -198,7 +207,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+Install all necessary dependencies:
 
 #### 1. Backend dependencies
 Download and install the dependencies mentioned above using `pip` as:
