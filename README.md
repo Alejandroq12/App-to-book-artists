@@ -128,6 +128,8 @@ After you're finished please remove all the comments and instructions!
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
+      - [Backend:](#backend)
+      - [Frotend:](#frotend)
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
@@ -247,6 +249,7 @@ Example commands:
 
 Install this project with:
 
+#### Backend:
 Download and install the dependencies mentioned above using `pip` as:
 ```
 pip install virtualenv
@@ -255,6 +258,7 @@ pip install postgres
 pip install Flask
 pip install Flask-Migrate
 ```
+#### Frotend:
 
 <!--
 Example command:
