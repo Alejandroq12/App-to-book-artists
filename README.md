@@ -1,20 +1,3 @@
-## Tech Stack (Dependencies)
-
-### 1. Backend Dependencies
-
- * **virtualenv** as a tool to create isolated Python environments
- * **SQLAlchemy ORM** to be the ORM library of choice
- * **PostgreSQL** as database
- * **Python3** and **Flask** as the server language and server framework
- * **Flask-Migrate** for creating and running schema migrations
-Download and install the dependencies mentioned above using `pip` as:
-```
-pip install virtualenv
-pip install SQLAlchemy
-pip install postgres
-pip install Flask
-pip install Flask-Migrate
-```
 
 ### 2. Frontend Dependencies
 **HTML**, **CSS**, and **Javascript** with [Bootstrap 5](https://getbootstrap.com/docs/3.4/customize/) for this website's frontend. Bootstrap can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
@@ -176,20 +159,35 @@ I want this to be the next new platform that artists and musical venues can use 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
+ 
+ * 
+ * **PostgreSQL** as database
+ * **Python3** and **Flask** as the server language and server framework
+ * **Flask-Migrate** for creating and running schema migrations
+Download and install the dependencies mentioned above using `pip` as:
+```
+pip install virtualenv
+pip install SQLAlchemy
+pip install postgres
+pip install Flask
+pip install Flask-Migrate
+```
 
 <details>
-  <summary>Client</summary>
+  <summary>Frontend</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Backend</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://virtualenv.pypa.io/en/latest/">**virtualenv** as a tool to create isolated Python environments</a></li>
+    <li><a href="https://virtualenv.pypa.io/en/latest/">**SQLAlchemy ORM** to be the ORM library of choice</a></li>
+
+    
+    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
   </ul>
 </details>
 
