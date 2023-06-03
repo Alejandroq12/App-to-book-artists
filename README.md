@@ -185,16 +185,14 @@ https://www.python.org/downloads/
 ```
 Node.js
 ```sh
-https://www.python.org/downloads/
+https://nodejs.org/en/download/
+
 ```
  PostgreSQL
-<!--
-Example command:
 
 ```sh
- gem install rails
+https://www.postgresql.org/download/windows/
 ```
- -->
 
 ### Setup
 
