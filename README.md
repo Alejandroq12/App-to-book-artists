@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 My Artists <a name="about-project"></a>
 
-Fyyur is a musical venue and artist booking site that facilitates the discovery and booking of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as venue owners.
+My Artists is a musical venue and artist booking site that facilitates the discovery and booking of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as venue owners.
 
 My job is to build out the data models to power the API endpoints for this site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
 
