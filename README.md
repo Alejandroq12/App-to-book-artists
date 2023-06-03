@@ -167,9 +167,8 @@ I want this to be the next new platform that artists and musical venues can use 
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5</a></li>
   </ul>
 </details>
 
