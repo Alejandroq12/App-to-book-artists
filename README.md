@@ -165,7 +165,7 @@ I want this to be the next new platform that artists and musical venues can use 
 <details>
   <summary>Frontend</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
   </ul>
 </details>
 
