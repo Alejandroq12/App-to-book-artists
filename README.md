@@ -224,21 +224,11 @@ pip install Flask-Migrate
 node -v
 npm -v
 ```
-Install [Bootstrap 5]
+Install Bootstrap 5
 ```
 npm init -y
 npm install bootstrap@5
 ```
-
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
@@ -268,7 +258,7 @@ Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or
 
 ### Deployment
 
-You can deploy this project using:
+I will deploy this site soon.
 
 <!--
 Example:
