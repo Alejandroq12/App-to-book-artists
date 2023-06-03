@@ -188,8 +188,8 @@ Node.js
 https://nodejs.org/en/download/
 
 ```
- PostgreSQL
 
+ PostgreSQL
 ```sh
 https://www.postgresql.org/download/windows/
 ```
