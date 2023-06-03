@@ -176,7 +176,7 @@ I want this to be the next new platform that artists and musical venues can use 
     <li><a href="https://docs.sqlalchemy.org/en/20/orm/">**SQLAlchemy ORM** to be the ORM library of choice</a></li>
     <li><a href="https://www.python.org/">**Python3** as the server language.</a></li>
     <li><a href="https://flask.palletsprojects.com/en/2.3.x/">**Flask** as the server framework.</a></li>
-    <li><a href="https://flask-migrate.readthedocs.io/en/latest/"></a>**Flask-Migrate** for creating and running schema migrations.</li>
+    <li><a href="https://flask-migrate.readthedocs.io/en/latest/">**Flask-Migrate** for creating and running schema migrations.</a></li>
     <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
     <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
     <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
