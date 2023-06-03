@@ -152,8 +152,6 @@ Highlight folders:
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Post and find venues.**
 - **Post a show.**
 - **Post and find artists.**
@@ -164,7 +162,7 @@ Highlight folders:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> It will be available soon.
 
 - [Live Demo Link]()
 
@@ -193,14 +191,10 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Alejandroq12/App-to-book-artists.git
 ```
---->
 
 ### Install
 
@@ -218,6 +212,7 @@ pip install Flask-Migrate
 
 #### 2. Frontend dependencies
 **HTML**, **CSS**, and **Javascript** with [Bootstrap 5](https://getbootstrap.com/docs/3.4/customize/) for this website's frontend. Bootstrap can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
+
 ```
 node -v
 npm -v
