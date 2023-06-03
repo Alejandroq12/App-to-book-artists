@@ -36,34 +36,6 @@ Highlight folders:
 * Models in `app.py` -- (Missing functionality.) Defines the data models that set up the database tables.
 * `config.py` -- (Missing functionality.) Stores configuration variables and instructions, separate from the main application code. This is where I will need to connect to the database.
 
-
-## Development Setup
-
-1. **Initialize and activate a virtualenv using:**
-```
-python -m virtualenv env
-source env/bin/activate
-```
->**Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
-```
-source env/Scripts/activate
-```
-
-4. **Install the dependencies:**
-```
-pip install -r requirements.txt
-```
-
-5. **Run the development server:**
-
-```
-python app.py
-```
-
-6. **Verify on the Browser**<br>
-Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000) 
-
-
 <a name="readme-top"></a>
 
 <!--
@@ -117,7 +89,6 @@ After you're finished please remove all the comments and instructions!
       - [1. Backend dependencies](#1-backend-dependencies)
       - [2. Frontend dependencies](#2-frontend-dependencies)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -202,7 +173,6 @@ I want this to be the next new platform that artists and musical venues can use 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -269,27 +239,29 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
+1. **Initialize and activate a virtualenv using:**
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+python -m virtualenv env
+source env/bin/activate
 ```
---->
+>**Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
+```
+source env/Scripts/activate
+```
+
+4. **Install the dependencies:**
+```
+pip install -r requirements.txt
+```
+
+5. **Run the development server:**
+
+```
+python app.py
+```
+
+6. **Verify on the Browser**<br>
+Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000) 
 
 ### Deployment
 
