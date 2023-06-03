@@ -159,7 +159,6 @@ I want this to be the next new platform that artists and musical venues can use 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
- * **Flask-Migrate** for creating and running schema migrations
 Download and install the dependencies mentioned above using `pip` as:
 ```
 pip install virtualenv
@@ -181,10 +180,9 @@ pip install Flask-Migrate
   <ul>
     <li><a href="https://virtualenv.pypa.io/en/latest/">**virtualenv** as a tool to create isolated Python environments</a></li>
     <li><a href="https://docs.sqlalchemy.org/en/20/orm/">**SQLAlchemy ORM** to be the ORM library of choice</a></li>
-    <li><a href="https://docs.sqlalchemy.org/en/20/orm/">**PostgreSQL** as database.</a></li>
     <li><a href="https://www.python.org/">**Python3** as the server language.</a></li>
     <li><a href="https://flask.palletsprojects.com/en/2.3.x/">**Flask** as the server framework.</a></li>
-    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
+    <li><a href="https://flask-migrate.readthedocs.io/en/latest/"></a>**Flask-Migrate** for creating and running schema migrations.</li>
     <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
     <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
     <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
