@@ -1,14 +1,3 @@
-
-
-## Overview
-
-This is afully functioning site that is at least capable of doing the following, if not more, using a PostgreSQL database:
-
-* creating new venues, artists, and creating new shows.
-* searching for venues and artists.
-* learning more about a specific artist or venue.
-
-I want this to be the next new platform that artists and musical venues can use to find each other, and discover new music shows.
 ## Tech Stack (Dependencies)
 
 ### 1. Backend Dependencies
@@ -175,7 +164,14 @@ Fyyur is a musical venue and artist booking site that facilitates the discovery 
 
 My job is to build out the data models to power the API endpoints for this site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
 
-**[your_project__name]** is a...
+
+This is afully functioning site that is at least capable of doing the following, if not more, using a PostgreSQL database:
+
+* creating new venues, artists, and creating new shows.
+* searching for venues and artists.
+* learning more about a specific artist or venue.
+
+I want this to be the next new platform that artists and musical venues can use to find each other, and discover new music shows.
 
 ## 🛠 Built With <a name="built-with"></a>
 
