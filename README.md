@@ -184,9 +184,18 @@ pip install Flask-Migrate
   <summary>Backend</summary>
   <ul>
     <li><a href="https://virtualenv.pypa.io/en/latest/">**virtualenv** as a tool to create isolated Python environments</a></li>
-    <li><a href="https://virtualenv.pypa.io/en/latest/">**SQLAlchemy ORM** to be the ORM library of choice</a></li>
+    <li><a href="https://docs.sqlalchemy.org/en/20/orm/">**SQLAlchemy ORM** to be the ORM library of choice</a></li>
 
-    
+
+
+
+
+    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
+    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
+    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
+    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
+    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
+    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
     <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
   </ul>
 </details>
