@@ -1,17 +1,3 @@
-
-### 2. Frontend Dependencies
-**HTML**, **CSS**, and **Javascript** with [Bootstrap 5](https://getbootstrap.com/docs/3.4/customize/) for this website's frontend. Bootstrap can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
-```
-node -v
-npm -v
-```
-Install [Bootstrap 5]
-```
-npm init -y
-npm install bootstrap@5
-```
-
-
 ## Main Files: Project Structure
 
   ```sh
@@ -128,8 +114,8 @@ After you're finished please remove all the comments and instructions!
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-      - [Backend:](#backend)
-      - [Frotend:](#frotend)
+      - [1. Backend dependencies](#1-backend-dependencies)
+      - [2. Frontend dependencies](#2-frontend-dependencies)
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
@@ -180,9 +166,6 @@ I want this to be the next new platform that artists and musical venues can use 
     <li><a href="https://www.python.org/">**Python3** as the server language.</a></li>
     <li><a href="https://flask.palletsprojects.com/en/2.3.x/">**Flask** as the server framework.</a></li>
     <li><a href="https://flask-migrate.readthedocs.io/en/latest/">**Flask-Migrate** for creating and running schema migrations.</a></li>
-    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
-    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
-    <li><a href="https://virtualenv.pypa.io/en/latest/"></a></li>
   </ul>
 </details>
 
@@ -211,7 +194,7 @@ I want this to be the next new platform that artists and musical venues can use 
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,7 +235,7 @@ Example commands:
 
 Install this project with:
 
-#### Backend:
+#### 1. Backend dependencies
 Download and install the dependencies mentioned above using `pip` as:
 ```
 pip install virtualenv
@@ -261,7 +244,19 @@ pip install postgres
 pip install Flask
 pip install Flask-Migrate
 ```
-#### Frotend:
+
+#### 2. Frontend dependencies
+**HTML**, **CSS**, and **Javascript** with [Bootstrap 5](https://getbootstrap.com/docs/3.4/customize/) for this website's frontend. Bootstrap can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
+```
+node -v
+npm -v
+```
+Install [Bootstrap 5]
+```
+npm init -y
+npm install bootstrap@5
+```
+
 
 <!--
 Example command:
