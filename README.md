@@ -159,14 +159,6 @@ I want this to be the next new platform that artists and musical venues can use 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-Download and install the dependencies mentioned above using `pip` as:
-```
-pip install virtualenv
-pip install SQLAlchemy
-pip install postgres
-pip install Flask
-pip install Flask-Migrate
-```
 
 <details>
   <summary>Frontend</summary>
@@ -254,6 +246,15 @@ Example commands:
 ### Install
 
 Install this project with:
+
+Download and install the dependencies mentioned above using `pip` as:
+```
+pip install virtualenv
+pip install SQLAlchemy
+pip install postgres
+pip install Flask
+pip install Flask-Migrate
+```
 
 <!--
 Example command:
