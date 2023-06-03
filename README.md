@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="logo.png" alt="logo" width="650"  height="auto" />
   <br/>
 
-  <h3><b>My artists</b></h3>
+  <h3><b>My Artists</b></h3>
 
 </div>
 
