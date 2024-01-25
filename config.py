@@ -4,9 +4,8 @@ SECRET_KEY = os.urandom(32)
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Enable debug mode.
-DEBUG = False
+DEBUG = True
 
-# Connect to the database
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = 'DATABASE_URL'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:4991@localhost:5432/projectOne'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
