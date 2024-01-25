@@ -1,6 +1,7 @@
 import os
-SECRET_KEY = os.urandom(32)
-# Grabs the folder where the script runs.
+SECRET_KEY = os.getenv('SECRET_KEY')
+if not SECRET_KEY:
+    raise ValueError("No SECRET_KEY set for Flask application")# Grabs the folder where the script runs.
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Enable debug mode.
