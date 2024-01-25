@@ -1,11 +1,11 @@
 import os
-SECRET_KEY = os.getenv('SECRET_KEY', os.urandom(32))
+SECRET_KEY = os.urandom(32)
 # Grabs the folder where the script runs.
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Enable debug mode.
-DEBUG = os.getenv('DEBUG', 'False') == 'True'
+DEBUG = True
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'postgresql://postgres:4991@localhost:5432/projectOne')
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:4991@localhost:5432/projectOne'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
