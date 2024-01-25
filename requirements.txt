@@ -12,3 +12,9 @@ babel
 python-dateutil==2.6.0
 flask-moment
 flask-wtf
+
+gunicorn==20.1.0
+virtualenv
+SQLAlchemy
+postgres
+Flask
