@@ -1,18 +1,12 @@
 import os
-
-# Secret Key
-SECRET_KEY = os.getenv('SECRET_KEY', 'your-default-secret-key')
-if not SECRET_KEY:
-    raise ValueError("No SECRET_KEY set for Flask application")
-
-# Base directory
+SECRET_KEY = os.urandom(32)
+# Grabs the folder where the script runs.
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-# Disable debug mode for production
+# Enable debug mode.
 DEBUG = False
 
-# Database configuration
-SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'your-default-database-uri')
-if SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
-    SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace("postgres://", "postgresql://", 1)
+# Connect to the database
+# TODO IMPLEMENT DATABASE URL
+SQLALCHEMY_DATABASE_URI = 'DATABASE_URL'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
