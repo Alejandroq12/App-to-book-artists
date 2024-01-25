@@ -1,11 +1,18 @@
 import os
-SECRET_KEY = os.urandom(32)
-# Grabs the folder where the script runs.
+
+# Secret Key
+SECRET_KEY = os.getenv('SECRET_KEY', 'your-default-secret-key')
+if not SECRET_KEY:
+    raise ValueError("No SECRET_KEY set for Flask application")
+
+# Base directory
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-# Enable debug mode.
-DEBUG = True
+# Disable debug mode for production
+DEBUG = False
 
-# TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:4991@localhost:5432/projectOne'
+# Database configuration
+SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'your-default-database-uri')
+if SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
+    SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace("postgres://", "postgresql://", 1)
 SQLALCHEMY_TRACK_MODIFICATIONS = False
