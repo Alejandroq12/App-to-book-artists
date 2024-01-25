@@ -9,5 +9,5 @@ SQLAlchemy
 postgres
 Flask
 Flask-Migrate
-pip install psycopg2
+psycopg2
 
