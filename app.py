@@ -15,6 +15,21 @@ from config import *
 from models import *
 collections.Callable = collections.abc.Callable
 
+# Initialize the Flask application
+app = Flask(__name__)
+
+# Configurations from config.py
+app.config.from_object('config')
+
+# Initialize database
+db = SQLAlchemy(app)
+
+# Initialize Migrate
+migrate = Migrate(app, db)
+
+# Initialize Flask-Moment
+moment = Moment(app)
+
 def format_datetime(value, format='medium'):
     date = dateutil.parser.parse(value)
     if format == 'full':
